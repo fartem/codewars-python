@@ -1,6 +1,6 @@
 import unittest
 
-from src.kyu8.grasshoppercombinestrings import CombineStrings
+from src.kyu8.grasshopper_combine_strings import CombineStrings
 
 class CombineStringsTest(unittest.TestCase):
 

@@ -1,6 +1,6 @@
 import unittest
 
-from src.kyu8.nbafullminutesaverage import NbaFullMinutesAverage
+from src.kyu8.nba_full_minutes_average import NbaFullMinutesAverage
 
 class NbaMinutesAverageTest(unittest.TestCase):
 

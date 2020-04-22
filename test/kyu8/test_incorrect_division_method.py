@@ -1,6 +1,6 @@
 import unittest
 
-from src.kyu8.incorrectdivisionmethod import DivisionMethod
+from src.kyu8.incorrect_division_method import DivisionMethod
 
 class DivisionMethodTest(unittest.TestCase):
 
