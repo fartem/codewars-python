@@ -5,5 +5,5 @@ class DivisionMethod:
         self.x = x
         self.y = y
 
-    def divide_numbers(self):
+    def solution(self):
         return self.x / float(self.y)

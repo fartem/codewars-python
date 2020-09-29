@@ -5,5 +5,5 @@ class CombineStrings:
         self.first = first
         self.last = last
 
-    def combine_names(self):
+    def solution(self):
         return "{} {}".format(self.first, self.last)

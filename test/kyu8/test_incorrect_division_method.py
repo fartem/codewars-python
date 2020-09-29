@@ -7,25 +7,25 @@ class DivisionMethodTest(unittest.TestCase):
     def test_divide_numbers(self):
         self.assertEqual(
             2,
-            DivisionMethod(4, 2).divide_numbers()
+            DivisionMethod(4, 2).solution()
         )
         self.assertEqual(
             5,
-            DivisionMethod(10, 2).divide_numbers()
+            DivisionMethod(10, 2).solution()
         )
         self.assertEqual(
             2.25,
-            DivisionMethod(9, 4).divide_numbers()
+            DivisionMethod(9, 4).solution()
         )
         self.assertEqual(
             4.2,
-            DivisionMethod(21, 5).divide_numbers()
+            DivisionMethod(21, 5).solution()
         )
         self.assertEqual(
             3,
-            DivisionMethod(9, 3).divide_numbers()
+            DivisionMethod(9, 3).solution()
         )
         self.assertEqual(
             0.01,
-            DivisionMethod(1, 100).divide_numbers()
+            DivisionMethod(1, 100).solution()
         )
