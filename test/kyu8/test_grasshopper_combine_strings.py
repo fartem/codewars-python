@@ -1,19 +1,19 @@
 import unittest
 
-from src.kyu8.grasshopper_combine_strings import CombineStrings
+from src.kyu8.grasshopper_combine_strings import GrasshopperCombineStrings
 
 class CombineStringsTest(unittest.TestCase):
 
     def test_combine_names(self):
         self.assertEqual(
             "James Stevens",
-            CombineStrings("James", "Stevens").solution()
+            GrasshopperCombineStrings("James", "Stevens").solution()
         )
         self.assertEqual(
             "Davy Back",
-            CombineStrings("Davy", "Back").solution()
+            GrasshopperCombineStrings("Davy", "Back").solution()
         )
         self.assertEqual(
             "Arthur Dent",
-            CombineStrings("Arthur", "Dent").solution()
+            GrasshopperCombineStrings("Arthur", "Dent").solution()
         )
